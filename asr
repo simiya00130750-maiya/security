@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+main()
+{
+int a[10];
+int i;
+clrscr();
+printf("\t INPUT DATA\n");
+
+for (i=0; i<=9; i++)
+{
+printf("A[%d] = ",i);
+scanf("%d",&a[i]);
+}
+printf("\n\t Report Data in Aray\n");
+for (i=0; i<=9; i++)
+{
+printf("A[%d] = %d \n",i, a[i]);
+}
+getch();
+return 0;
+}
