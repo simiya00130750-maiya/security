@@ -20,6 +20,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="report.php">รายงาน</a>
                 </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./logout.php">ออกจากระบบ</a>
+                </li>
             </ul>
             </div>
     </div>
